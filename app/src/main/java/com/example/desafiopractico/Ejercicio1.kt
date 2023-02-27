@@ -93,6 +93,8 @@ class Ejercicio1 : AppCompatActivity() {
                 txtCodigo.setText("")
                 txtVentas.setText("")
                 arreglo.clear()
+                button.visibility = View.VISIBLE
+                button1.visibility = View.GONE
             } else{
                 Toast.makeText(this, "Faltaron valores de ventas",
                     Toast.LENGTH_SHORT).show()
